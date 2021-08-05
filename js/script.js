@@ -16,4 +16,4 @@ const renderGoodsList = (list) => {
 
 // renderGoodsList(goods);
 
-document.getElementById('btn1').onclick = renderGoodsList(goods);
+document.getElementById('btn1').addEventListener('click', () => {renderGoodsList(goods)})
